@@ -119,10 +119,3 @@ add_action('wp_enqueue_scripts', 'sg_forma_child_enqueue_styles');
 - Проверять входные данные форм
 - Использовать nonce для форм
 
-## Контакты
-При возникновении вопросов обращаться к:
-- Email: [your-email@example.com]
-- Телефон: [your-phone]
-
-## Лицензия
-[Указать тип лицензии] 
