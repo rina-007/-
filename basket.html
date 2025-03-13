@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="src/style/swiper.css">
+    <link rel="stylesheet" href="src/style/common.css">
+    <link rel="stylesheet" href="src/style/basket.css">
+    <title>FORM</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-column header-content">
+                <nav class="d-flex align-items-center justify-content-between">
+                    <a class="logo" href="index.html"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <ul class="nav__links d-flex align-items-center">
+                        <li class="nav__links-item">
+                            <span>меню</span>
+                            <div class="nav__dropdown">
+                                <ul class="nav__dropdown-list d-flex flex-column">
+                                    <li class="nav__dropdown-item"><a href="detox-programs.html">Детокс-программы</a>
+                                    </li>
+                                    <li class="nav__dropdown-item"><a href="smuzi.html">Смузи</a></li>
+                                    <li class="nav__dropdown-item"><a href="juices.html">Соки</a></li>
+                                    <li class="nav__dropdown-item"><a href="smuzi-bouly.html">Смузи боулы</a></li>
+                                    <li class="nav__dropdown-item"><a href="detox-tea.html">Детокс чай</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="stock.html">акции</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="detox-programs.html">Детокс-программы</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="about-us.html">о нас</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="contacts.html">контакты</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="delivery.html">доставка и оплата</a>
+                        </li>
+                    </ul>
+                    <div class="nav__btns d-flex align-items-center">
+                        <a href="profile.html"><img src="src/assets/icons/user.svg" alt=""></a>
+                        <a href="favorites.html" class="header-favorite">
+                            <span class="favorite-count">0</span>
+                            <img src="src/assets/icons/heart.svg" alt="">
+                        </a>
+                        <a href="basket.html" class="header-card">
+                            <span class="card-count">0</span>
+                            <img src="src/assets/icons/basket.svg" alt="">
+                        </a>
+                        <div class="burger" id="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-flex justify-content-end">
+                    <div class="search">
+                        <span class="search-icon"></span>
+                        <input type="text" name="search-input" id="search-input" placeholder="Поиск товаров">
+                    </div>
+                </div>
+            </div>
+            <div class="to-back">
+                <a href="index.html">Главная</a>
+                <span> / </span>
+                <a class="active">Корзина</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="basket d-flex flex-column align-items-start">
+                <h4 class="title-1">Корзина</h4>
+                <p>Минимальная сумма заказа - <span>3000</span></p>
+                <div class="basket-grid">
+                    <div class="basket-list">
+                        <div class="basket-list__item" data-price="640">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span class="remove-basket-item"></span>
+                            </div>
+                            <div class="basket-item-img"><img src="src/assets/images/product-2.png" alt=""></div>
+                            <div class="basket-product-name d-flex flex-column">
+                                <p>Смузи – Глинтвейн</p>
+                                <span>290мл</span>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="product-card__count-control d-flex align-items-center">
+                                    <span class="product-card__minus"></span>
+                                    <input type="number" name="product-card-count" id="product-card-count"
+                                        class="product-card-count" value="1" readonly="">
+                                    <span class="product-card__plus"></span>
+                                </div>
+                            </div>
+                            <div class="basket-item-price-and-count d-flex flex-column justify-content-end">
+                                <div class="d-flex align-items-center text-uppercase">
+                                    <h5>640</h5>
+                                    <span class="currency">p</span>
+                                </div>
+                                <p>320₽ за 1 шт.</p>
+                            </div>
+                        </div>
+                        <div class="basket-list__item" data-price="2500">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span class="remove-basket-item"></span>
+                            </div>
+                            <div class="basket-item-img"><img src="src/assets/images/product-2.png" alt=""></div>
+                            <div class="basket-product-name d-flex flex-column">
+                                <p>Детокс-программа
+                                    на смузи на 1 день</p>
+                                <span>8шт. х 290мл</span>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="product-card__count-control d-flex align-items-center">
+                                    <span class="product-card__minus"></span>
+                                    <input type="number" name="product-card-count" id="product-card-count"
+                                        class="product-card-count" value="1" readonly="">
+                                    <span class="product-card__plus"></span>
+                                </div>
+                            </div>
+                            <div class="basket-item-price-and-count d-flex flex-column justify-content-end">
+                                <div class="d-flex align-items-center text-uppercase">
+                                    <h5>2500</h5>
+                                    <span class="currency">p</span>
+                                </div>
+                                <p>320₽ за 1 шт.</p>
+                            </div>
+                        </div>
+                        <div class="basket-list__item" data-price="320">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <span class="remove-basket-item"></span>
+                            </div>
+                            <div class="basket-item-img"><img src="src/assets/images/product-2.png" alt=""></div>
+                            <div class="basket-product-name d-flex flex-column">
+                                <p>Смузи-Ананас и розовый перец</p>
+                                <span>290мл</span>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <div class="product-card__count-control d-flex align-items-center">
+                                    <span class="product-card__minus"></span>
+                                    <input type="number" name="product-card-count" id="product-card-count"
+                                        class="product-card-count" value="1" readonly="">
+                                    <span class="product-card__plus"></span>
+                                </div>
+                            </div>
+                            <div class="basket-item-price-and-count d-flex flex-column justify-content-end">
+                                <div class="d-flex align-items-center text-uppercase">
+                                    <h5>320</h5>
+                                    <span class="currency">p</span>
+                                </div>
+                                <p>320₽ за 1 шт.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="basket-info">
+                        <div class="d-flex align-items-center justify-content-between basket-info__head">
+                            <p class="basket-info__title">Подытог</p>
+                            <div class="basket-info__pre-total d-flex align-items-center">
+                                <span class="basket-info__pre-total-value">3460</span>
+                                <span class="currency">p</span>
+                            </div>
+                        </div>
+                        <div class="basket-info__content">
+                            <p class="basket-info__title">доставка</p>
+                            <div class="d-flex flex-column basket-info__radios">
+                                <div>
+                                    <input type="radio" id="delivery" name="radio-group" checked>
+                                    <label for="delivery">Доставка курьером: <span>1500 ₽</span></label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="pickup" name="radio-group">
+                                    <label for="pickup">Самовывоз</label>
+                                </div>
+                            </div>
+                            <div class="basket-info__calculate">
+                                <div class="basket-info__calculate-head">
+                                    <span class="basket-info__calculate-title">Рассчитать стоимость</span>
+                                    <div class="basket-info__calculat-content flex-column">
+                                        <div class="auth-form__row d-flex flex-column">
+                                            <span>Страна</span>
+                                            <div class="auth-form__input select">
+                                                <input type="text" name="country" id="country" value="Россия" readonly>
+                                                <ul class="select-dropdown">
+                                                    <li>Россия</li>
+                                                    <li>Беларусь</li>
+                                                    <li>Казахстан</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="auth-form__row d-flex flex-column">
+                                            <span>Область / район</span>
+                                            <div class="auth-form__input">
+                                                <input type="text" name="region" id="region"
+                                                    placeholder="Область / район">
+                                            </div>
+                                        </div>
+                                        <div class="auth-form__row d-flex flex-column">
+                                            <span>Область / район</span>
+                                            <div class="auth-form__input">
+                                                <input type="text" name="region" id="region"
+                                                    placeholder="Область / район">
+                                            </div>
+                                        </div>
+                                        <div class="auth-form__row d-flex flex-column">
+                                            <span>Город</span>
+                                            <div class="auth-form__input">
+                                                <input type="text" name="region" id="region" placeholder="Город">
+                                            </div>
+                                        </div>
+                                        <div class="auth-form__row d-flex flex-column">
+                                            <span>Почтовый индекс</span>
+                                            <div class="auth-form__input">
+                                                <input type="text" name="postal-code" id="postal-code"
+                                                    placeholder="Индекс">
+                                            </div>
+                                        </div>
+                                        <button class="btn-brown">обновить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basket-info__bottom d-flex flex-column">
+                            <p class="basket-info__title">итого:</p>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="basket-info__total d-flex align-items-center">
+                                    <span class="basket-info__total-price title-1">4960</span>
+                                    <span class="currency title-1">p</span>
+                                </div>
+                                <button class="btn-brown">оформить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand-info d-flex flex-column">
+                    <a href="index.html" class="footer-logo"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <p>
+                        Здоровый детокс организма - натуральные смузи
+                        и боулы с доставкой по Москве
+                        <br>
+                        <br>
+                        <span>ООО «Симплигрин»</span>
+                        <br>
+                        ИНН 7743280030
+                        <span>Юридический адрес:</span>
+                        <br>
+                        115088, город Москва, вн. тер. г. Муниципальный
+                        округ Южнопортовый, ул. 1-я Дубровская, д. 13А, стр. 1
+                    </p>
+                </div>
+                <div class="d-flex flex-column footer-links">
+                    <span class="footer-link-title">Для клиентов</span>
+
+                    <a href="#" class="footer-link footer-item">Возврат</a>
+                    <a href="#" class="footer-link footer-item">Доставка и оплата</a>
+                    <a href="#" class="footer-link footer-item">Вопрос – Ответ</a>
+                    <a href="#" class="footer-link footer-item">Политика конфиденциальности</a>
+                    <a href="#" class="footer-link footer-item">Отзывы</a>
+                    <a href="#" class="footer-link footer-item">Контакты</a>
+                </div>
+                <div class="d-flex flex-column footer-contacts">
+                    <span class="footer-link-title">Контакты</span>
+
+                    <a href="mailto:sale@simplygreen.club" class="d-flex align-items-center">
+                        <img src="src/assets/icons/email.svg" alt="">
+                        <p class="footer-link footer-item">sale@simplygreen.club</p>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/whatsapp.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                    <a href="https://web.telegram" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/telegram.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-column">
+                        <span class="footer-link-title">ГРАФИК РАБОТЫ:</span>
+
+                        <span class="footer-item">с 9:00 до 21:00</span>
+                        <span class="footer-item">без выходных</span>
+                    </div>
+                    <div class="pay-cards d-flex align-items-center">
+                        <img src="src/assets/icons/mastercard.png" alt="">
+                        <img src="src/assets/icons/visa.png" alt="">
+                        <img src="src/assets/icons/mir.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script/swiper.js"></script>
+    <script src="src/script/general.js"></script>
+    <script src="src/script/basket.js"></script>
+</body>
+
+</html>

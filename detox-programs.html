@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="src/style/swiper.css">
+    <link rel="stylesheet" href="src/style/common.css">
+    <link rel="stylesheet" href="src/style/smuzi.css">
+    <title>FORM</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-column header-content">
+                <nav class="d-flex align-items-center justify-content-between">
+                    <a class="logo" href="index.html"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <ul class="nav__links d-flex align-items-center">
+                        <li class="nav__links-item">
+                            <span>меню</span>
+                            <div class="nav__dropdown">
+                                <ul class="nav__dropdown-list d-flex flex-column">
+                                    <li class="nav__dropdown-item"><a href="detox-programs.html">Детокс-программы</a>
+                                    </li>
+                                    <li class="nav__dropdown-item"><a href="smuzi.html">Смузи</a></li>
+                                    <li class="nav__dropdown-item"><a href="juices.html">Соки</a></li>
+                                    <li class="nav__dropdown-item"><a href="smuzi-bouly.html">Смузи боулы</a></li>
+                                    <li class="nav__dropdown-item"><a href="detox-tea.html">Детокс чай</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="stock.html">акции</a>
+                        </li>
+                        <li class="nav__links-item active">
+                            <a href="detox-programs.html">Детокс-программы</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="about-us.html">о нас</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="contacts.html">контакты</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="delivery.html">доставка и оплата</a>
+                        </li>
+                    </ul>
+                    <div class="nav__btns d-flex align-items-center">
+                        <a href="profile.html"><img src="src/assets/icons/user.svg" alt=""></a>
+                        <a href="favorites.html" class="header-favorite">
+                            <span class="favorite-count">0</span>
+                            <img src="src/assets/icons/heart.svg" alt="">
+                        </a>
+                        <a href="basket.html" class="header-card">
+                            <span class="card-count">0</span>
+                            <img src="src/assets/icons/basket.svg" alt="">
+                        </a>
+                        <div class="burger" id="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-flex justify-content-end">
+                    <div class="search">
+                        <span class="search-icon"></span>
+                        <input type="text" name="search-input" id="search-input" placeholder="Поиск товаров">
+                    </div>
+                </div>
+            </div>
+            <div class="to-back">
+                <a href="index.html">Главная</a>
+                <span> / </span>
+                <a href="#">Магазин детокс напитков</a>
+                <span> / </span>
+                <a class="active">Детокс-программы на смузи в Москве</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="detokx-preview">
+            <div class="container">
+                <div class="detokx-cards">
+                    <div class="detokx-cards_item">
+                        <h4 class="title-1">детокс-программы</h4>
+                        <p>Устроить детокс на смузи – это идеальный способ оздоровить организм! У нас вы можете
+                            заказать детокс-программы, специально подобранные для обогащения организма. Наши
+                            напитки на 100% натуральны, богаты витаминами и питательными веществами. Придайте
+                            своему организму силу и энергию с нашими программами детокса! Доставляем по Москве и
+                            области.
+                        </p>
+                    </div>
+                    <a href="smuzi-bouly-product-card.html" class="product-card card-item" data-product-id="16">
+                        <span class="product-card__favorite" onclick="addToFavorites(this, event)"></span>
+                        <button class="btn-border product-card__add" onclick="addToCard(this, event)">в корзину</button>
+                        <div class="d-flex flex-column align-items-start product-card__text">
+                            <div class="d-flex align-items-center product-card__price">
+                                <h4>2500</h4>
+                                <span class="currency">p</span>
+                            </div>
+                            <p class="product-card__description">Сок холодного отжима – Апельсин и петрушка</p>
+                        </div>
+                        <img class="product-card__img" src="src/assets/images/product-1.png" alt="">
+                    </a>
+                    <a href="smuzi-bouly-product-card.html" class="product-card card-item" data-product-id="17">
+                        <span class="product-card__favorite" onclick="addToFavorites(this, event)"></span>
+                        <button class="btn-border product-card__add" onclick="addToCard(this, event)">в корзину</button>
+                        <div class="d-flex flex-column align-items-start product-card__text">
+                            <div class="d-flex align-items-center product-card__price">
+                                <h4>4900</h4>
+                                <span class="currency">p</span>
+                            </div>
+                            <p class="product-card__description">Сок холодного отжима – Апельсин и петрушка</p>
+                        </div>
+                        <img class="product-card__img" src="src/assets/images/product-1.png" alt="">
+                    </a>
+                    <a href="smuzi-bouly-product-card.html" class="product-card card-item" data-product-id="18">
+                        <span class="product-card__favorite" onclick="addToFavorites(this, event)"></span>
+                        <button class="btn-border product-card__add" onclick="addToCard(this, event)">в корзину</button>
+                        <div class="d-flex flex-column align-items-start product-card__text">
+                            <div class="d-flex align-items-center product-card__price">
+                                <h4 class="">2500</h4>
+                                <span class="currency">p</span>
+                            </div>
+                            <p class="product-card__description">Сок холодного отжима – Апельсин и петрушка</p>
+                        </div>
+                        <img class="product-card__img" src="src/assets/images/product-1.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex flex-column align-items-center how-to-work-detox">
+                <h4 class="title-1">Как работают детокс программы</h4>
+                <p><span>Детокс-программы</span> – это инновационный способ очищения и оздоровления организма. Они
+                    основаны на использовании специально подобранных детокс-напитков, богатых витаминами и
+                    антиоксидантами. Натуральные соки и смузи помогают устранить токсины и шлаки, накопившиеся в
+                    организме, улучшают пищеварение и обогащают клетки полезными веществами.
+                    <br>
+                    <br>
+                    Детокс-программы способствуют повышению энергии, укреплению иммунитета и улучшению внешнего вида.
+                    Они также могут помочь в снижении веса и улучшении состояния кожи, волос и ногтей. Благодаря детоксу
+                    на смузи, ваш организм работает более эффективно, вы чувствуете себя бодрее и здоровее. Это отличное
+                    решение для тела, которое помогает достичь гармонии и баланса.
+                </p>
+            </div>
+        </div>
+
+        <div class="who-are-smoothie">
+            <div class="container">
+                <div class="who-are-smoothie__content d-flex align-items-center flex-column">
+                    <h4 class="title-1">Кому подойдут смузи-детоксы?</h4>
+                    <div class="d-flex align-items-center who-are-smoothie__title">
+                        <img src="src/assets/icons/yes.svg" alt="">
+                        <span>подходят:</span>
+                    </div>
+                    <div class="who-are-smoothie__grid">
+                        <div class="d-flex align-items-center">
+                            <img src="src/assets/icons/body.svg" alt="">
+                            <p>Поддерживать здоровое пищеварение и очищать организм от токсинов и шлаков</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="src/assets/icons/scales.svg" alt="">
+                            <p>Помочь снизить вес или поддерживать его на оптимальном уровне</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="src/assets/icons/immunity.svg" alt="">
+                            <p>Укрепить иммунитет и повысить энергию</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="src/assets/icons/hair-status.svg" alt="">
+                            <p>Улучшить состояние кожи, волос и ногтей</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center who-are-smoothie__title">
+                        <img src="src/assets/icons/cross.svg" alt="">
+                        <span>подходят:</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="src/assets/icons/stomach.svg" alt="">
+                        <p>Однако, если у вас есть хронические проблемы с ЖКТ, такие как повышенная кислотность в
+                            желудке или язвенное заболева-
+                            ние, рекомендуется проконсультироваться с врачом перед началом детокс-программы. Такие
+                            состояния могут потребовать индивидуального подхода</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="how-to-take-smoothies d-flex flex-column align-items-center">
+                <h4 class="title-1">Как правильно принимать смузи из<br> программы детокса?</h4>
+                <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center">
+                        <span>1</span>
+                        <p>Начните свой день с смузи сразу после пробуждения</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span>2</span>
+                        <p>Следуйте регулярному графику, выпивая по одному напитку каждые 2-3 часа</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span>3</span>
+                        <p>Выпивайте 1.5 литра воды в течение дня для обеспечения гидратации организма</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span>4</span>
+                        <p>При необходимости делайте перерывы между напитками</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span>5</span>
+                        <p>Прислушивайтесь к своему организму и доверяйте ему!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand-info d-flex flex-column">
+                    <a href="index.html" class="footer-logo"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <p>
+                        Здоровый детокс организма - натуральные смузи
+                        и боулы с доставкой по Москве
+                        <br>
+                        <br>
+                        <span>ООО «Симплигрин»</span>
+                        <br>
+                        ИНН 7743280030
+                        <span>Юридический адрес:</span>
+                        <br>
+                        115088, город Москва, вн. тер. г. Муниципальный
+                        округ Южнопортовый, ул. 1-я Дубровская, д. 13А, стр. 1
+                    </p>
+                </div>
+                <div class="d-flex flex-column footer-links">
+                    <span class="footer-link-title">Для клиентов</span>
+
+                    <a href="#" class="footer-link footer-item">Возврат</a>
+                    <a href="#" class="footer-link footer-item">Доставка и оплата</a>
+                    <a href="#" class="footer-link footer-item">Вопрос – Ответ</a>
+                    <a href="#" class="footer-link footer-item">Политика конфиденциальности</a>
+                    <a href="#" class="footer-link footer-item">Отзывы</a>
+                    <a href="#" class="footer-link footer-item">Контакты</a>
+                </div>
+                <div class="d-flex flex-column footer-contacts">
+                    <span class="footer-link-title">Контакты</span>
+
+                    <a href="mailto:sale@simplygreen.club" class="d-flex align-items-center">
+                        <img src="src/assets/icons/email.svg" alt="">
+                        <p class="footer-link footer-item">sale@simplygreen.club</p>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/whatsapp.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                    <a href="https://web.telegram" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/telegram.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-column">
+                        <span class="footer-link-title">ГРАФИК РАБОТЫ:</span>
+
+                        <span class="footer-item">с 9:00 до 21:00</span>
+                        <span class="footer-item">без выходных</span>
+                    </div>
+                    <div class="pay-cards d-flex align-items-center">
+                        <img src="src/assets/icons/mastercard.png" alt="">
+                        <img src="src/assets/icons/visa.png" alt="">
+                        <img src="src/assets/icons/mir.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script/swiper.js"></script>
+    <script src="src/script/general.js"></script>
+</body>
+
+</html>

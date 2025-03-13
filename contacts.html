@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="src/style/swiper.css">
+    <link rel="stylesheet" href="src/style/common.css">
+    <title>FORM</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-column header-content">
+                <nav class="d-flex align-items-center justify-content-between">
+                    <a class="logo" href="index.html"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <ul class="nav__links d-flex align-items-center">
+                        <li class="nav__links-item">
+                            <span>меню</span>
+                            <div class="nav__dropdown">
+                                <ul class="nav__dropdown-list d-flex flex-column">
+                                    <li class="nav__dropdown-item"><a href="detox-programs.html">Детокс-программы</a>
+                                    </li>
+                                    <li class="nav__dropdown-item"><a href="smuzi.html">Смузи</a></li>
+                                    <li class="nav__dropdown-item"><a href="juices.html">Соки</a></li>
+                                    <li class="nav__dropdown-item"><a href="smuzi-bouly.html">Смузи боулы</a></li>
+                                    <li class="nav__dropdown-item"><a href="detox-tea.html">Детокс чай</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="stock.html">акции</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="detox-programs.html">Детокс-программы</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="about-us.html">о нас</a>
+                        </li>
+                        <li class="nav__links-item active">
+                            <a href="contacts.html">контакты</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="delivery.html">доставка и оплата</a>
+                        </li>
+                    </ul>
+                    <div class="nav__btns d-flex align-items-center">
+                        <a href="profile.html"><img src="src/assets/icons/user.svg" alt=""></a>
+                        <a href="favorites.html" class="header-favorite">
+                            <span class="favorite-count">0</span>
+                            <img src="src/assets/icons/heart.svg" alt="">
+                        </a>
+                        <a href="basket.html" class="header-card">
+                            <span class="card-count">0</span>
+                            <img src="src/assets/icons/basket.svg" alt="">
+                        </a>
+                        <div class="burger" id="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-flex justify-content-end">
+                    <div class="search">
+                        <span class="search-icon"></span>
+                        <input type="text" name="search-input" id="search-input" placeholder="Поиск товаров">
+                    </div>
+                </div>
+            </div>
+            <div class="to-back">
+                <a href="index.html">Главная</a>
+                <span> / </span>
+                <a class="active">Контакты</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="contacts">
+                <div class="contacts-grid">
+                    <div class="contacts__item">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class="title-1">Контакты</h4>
+                            <div class="d-flex justify-content-between">
+                                <p>
+                                    ООО «Симплигрин»<br>
+                                    ИНН 7743280030<br>
+                                    ОГРН 1187746900890
+                                </p>
+                                <p>Юридический адрес: 115088, город Москва,<br>
+                                    вн. тер. г. Муниципальный округ Южнопор-<br>
+                                    товый, ул. 1-я Дубровская, д. 13А, стр. 1
+                                </p>
+                            </div>
+                            <h5>Для юридических лиц</h5>
+                            <div class="d-flex align-items-center">
+                                <img src="src/assets/icons/email.svg" alt="">
+                                <a href="mailto:tyurina@simplygreen.club">tyurina@simplygreen.club</a>
+                            </div>
+                            <h5>Для физических лиц</h5>
+                            <div class="d-flex align-items-center">
+                                <img src="src/assets/icons/email.svg" alt="">
+                                <a href="mailto:sale@simplygreen.club">sale@simplygreen.club</a>
+                            </div>
+                            <h5>whatsapp</h5>
+                            <div class="d-flex align-items-center">
+                                <img src="src/assets/icons/email.svg" alt="">
+                                <a href="https://web.whatsapp.com/" target="_blank">+7(903)666-77-17</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="d-flex flex-column align-items-center">
+                            <h4 class="title-1">Есть вопросы?</h4>
+                            <p>Заполните форму ниже и мы ответим на все интересующие вас вопросы!</p>
+                            <div class="contacts__item-form d-flex flex-column align-items-center">
+                                <div class="auth-form__row d-flex flex-column">
+                                    <span>Имя*</span>
+                                    <div class="auth-form__input">
+                                        <input type="text" name="name" id="name" placeholder="Введите ваше имя">
+                                    </div>
+                                </div>
+                                <div class="auth-form__row d-flex flex-column">
+                                    <span>Телефон*</span>
+                                    <div class="auth-form__input">
+                                        <input type="text" name="phone" id="phone" placeholder="Введите номер телефона">
+                                    </div>
+                                </div>
+                                <div class="auth-form__row d-flex flex-column">
+                                    <span>E-mail*</span>
+                                    <div class="auth-form__input">
+                                        <input type="email" name="email" id="email" placeholder="Введите адрес почты">
+                                    </div>
+                                </div>
+                                <button class="btn-brown">отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="map mt-4" id="map"></div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand-info d-flex flex-column">
+                    <a href="index.html" class="footer-logo"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <p>
+                        Здоровый детокс организма - натуральные смузи
+                        и боулы с доставкой по Москве
+                        <br>
+                        <br>
+                        <span>ООО «Симплигрин»</span>
+                        <br>
+                        ИНН 7743280030
+                        <span>Юридический адрес:</span>
+                        <br>
+                        115088, город Москва, вн. тер. г. Муниципальный
+                        округ Южнопортовый, ул. 1-я Дубровская, д. 13А, стр. 1
+                    </p>
+                </div>
+                <div class="d-flex flex-column footer-links">
+                    <span class="footer-link-title">Для клиентов</span>
+
+                    <a href="#" class="footer-link footer-item">Возврат</a>
+                    <a href="#" class="footer-link footer-item">Доставка и оплата</a>
+                    <a href="#" class="footer-link footer-item">Вопрос – Ответ</a>
+                    <a href="#" class="footer-link footer-item">Политика конфиденциальности</a>
+                    <a href="#" class="footer-link footer-item">Отзывы</a>
+                    <a href="#" class="footer-link footer-item">Контакты</a>
+                </div>
+                <div class="d-flex flex-column footer-contacts">
+                    <span class="footer-link-title">Контакты</span>
+
+                    <a href="mailto:sale@simplygreen.club" class="d-flex align-items-center">
+                        <img src="src/assets/icons/email.svg" alt="">
+                        <p class="footer-link footer-item">sale@simplygreen.club</p>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/whatsapp.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                    <a href="https://web.telegram" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/telegram.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-column">
+                        <span class="footer-link-title">ГРАФИК РАБОТЫ:</span>
+
+                        <span class="footer-item">с 9:00 до 21:00</span>
+                        <span class="footer-item">без выходных</span>
+                    </div>
+                    <div class="pay-cards d-flex align-items-center">
+                        <img src="src/assets/icons/mastercard.png" alt="">
+                        <img src="src/assets/icons/visa.png" alt="">
+                        <img src="src/assets/icons/mir.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=7eb0c5d1-ae4b-40f6-8bdc-d1372aa5ed9f&lang=ru_RU"
+        type="text/javascript"></script>
+
+    <script>
+        // --- Yandex Maps ---
+        ymaps.ready(init);
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                center: [55.76, 37.64],
+                zoom: 10
+            });
+        }
+    </script>
+    <script src="src/script/swiper.js"></script>
+    <script src="src/script/general.js"></script>
+</body>
+
+</html>

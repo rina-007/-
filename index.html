@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="src/style/swiper.css">
+    <link rel="stylesheet" href="src/style/common.css">
+    <link rel="stylesheet" href="src/style/general.css">
+    <title>FORM</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex flex-column header-content">
+                <nav class="d-flex align-items-center justify-content-between">
+                    <a class="logo" href="index.html"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <ul class="nav__links d-flex align-items-center">
+                        <li class="nav__links-item active">
+                            <span>меню</span>
+                            <div class="nav__dropdown">
+                                <ul class="nav__dropdown-list d-flex flex-column">
+                                    <li class="nav__dropdown-item"><a href="detox-programs.html">Детокс-программы</a>
+                                    </li>
+                                    <li class="nav__dropdown-item"><a href="smuzi.html">Смузи</a></li>
+                                    <li class="nav__dropdown-item"><a href="juices.html">Соки</a></li>
+                                    <li class="nav__dropdown-item"><a href="smuzi-bouly.html">Смузи боулы</a></li>
+                                    <li class="nav__dropdown-item"><a href="detox-tea.html">Детокс чай</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="stock.html">акции</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="detox-programs.html">Детокс-программы</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="about-us.html">о нас</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="contacts.html">контакты</a>
+                        </li>
+                        <li class="nav__links-item">
+                            <a href="delivery.html">доставка и оплата</a>
+                        </li>
+                    </ul>
+                    <div class="nav__btns d-flex align-items-center">
+                        <a href="profile.html"><img src="src/assets/icons/user.svg" alt=""></a>
+                        <a href="favorites.html" class="header-favorite">
+                            <span class="favorite-count">0</span>
+                            <img src="src/assets/icons/heart.svg" alt="">
+                        </a>
+                        <a href="basket.html" class="header-card">
+                            <span class="card-count">0</span>
+                            <img src="src/assets/icons/basket.svg" alt="">
+                        </a>
+                        <div class="burger" id="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-flex justify-content-end">
+                    <div class="search">
+                        <span class="search-icon"></span>
+                        <input type="text" name="search-input" id="search-input" placeholder="Поиск товаров">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner-slider-bg">
+            <div class="container">
+                <div class="banner-slider">
+                    <span class="swiper-button-next banner-next"></span>
+                    <span class="swiper-button-prev banner-prev"></span>
+                    <div class="banner-slider__counter">
+                        <span class="current-slide"></span>
+                        <span class="banner-slider__counter-line"></span>
+                        <span class="slide-count"></span>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide banner-slide">
+                            <div class="banner-slide__img-main">
+                                <img class="drink" src="src/assets/images/product.png" alt="">
+                                <img class="mango-1" src="src/assets/images/манго 1.png" alt="">
+                                <img class="mango-2" src="src/assets/images/манго 2.png" alt="">
+                                <img class="leaf-1" src="src/assets/images/лист  11.png" alt="">
+                                <img class="leaf-2" src="src/assets/images/лист 1.png" alt="">
+                                <img class="leaf-3" src="src/assets/images/лист 14.png" alt="">
+                                <img class="leaf-4" src="src/assets/images/лист 3.png" alt="">
+                                <img class="leaf-5" src="src/assets/images/лист 9.png" alt="">
+                                <img class="leaf-6" src="src/assets/images/лист 2.png" alt="">
+                                <img class="leaf-7" src="src/assets/images/лист 7.png" alt="">
+                                <img class="leaf-8" src="src/assets/images/лист 8.png" alt="">
+                                <div class="banner-slide__info-1">
+                                    <img src="src/assets/icons/info-1.svg" alt="">
+                                    <p>мягкий детокс<br>
+                                        организма</p>
+                                </div>
+                                <div class="banner-slide__info-2">
+                                    <img src="src/assets/icons/info-2.svg" alt="">
+                                    <p>соки и смузи<br>
+                                        из натуральных<br>
+                                        продуктов</p>
+                                </div>
+                                <div class="banner-slide__order">
+                                    <span>заказать</span>
+                                    <img src="src/assets/icons/arrow-down.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide banner-slide">
+                            <div class="banner-slide__img-main">
+                                <img class="drink" src="src/assets/images/product.png" alt="">
+                                <img class="mango-1" src="src/assets/images/манго 1.png" alt="">
+                                <img class="mango-2" src="src/assets/images/манго 2.png" alt="">
+                                <img class="leaf-1" src="src/assets/images/лист  11.png" alt="">
+                                <img class="leaf-2" src="src/assets/images/лист 1.png" alt="">
+                                <img class="leaf-3" src="src/assets/images/лист 14.png" alt="">
+                                <img class="leaf-4" src="src/assets/images/лист 3.png" alt="">
+                                <img class="leaf-5" src="src/assets/images/лист 9.png" alt="">
+                                <img class="leaf-6" src="src/assets/images/лист 2.png" alt="">
+                                <img class="leaf-7" src="src/assets/images/лист 7.png" alt="">
+                                <img class="leaf-8" src="src/assets/images/лист 8.png" alt="">
+                                <div class="banner-slide__info-1">
+                                    <img src="src/assets/icons/info-1.svg" alt="">
+                                    <p>мягкий детокс<br>
+                                        организма</p>
+                                </div>
+                                <div class="banner-slide__info-2">
+                                    <img src="src/assets/icons/info-2.svg" alt="">
+                                    <p>соки и смузи<br>
+                                        из натуральных<br>
+                                        продуктов</p>
+                                </div>
+                                <div class="banner-slide__order">
+                                    <span>заказать</span>
+                                    <img src="src/assets/icons/arrow-down.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide banner-slide">
+                            <div class="banner-slide__img-main">
+                                <img class="drink" src="src/assets/images/product.png" alt="">
+                                <img class="mango-1" src="src/assets/images/манго 1.png" alt="">
+                                <img class="mango-2" src="src/assets/images/манго 2.png" alt="">
+                                <img class="leaf-1" src="src/assets/images/лист  11.png" alt="">
+                                <img class="leaf-2" src="src/assets/images/лист 1.png" alt="">
+                                <img class="leaf-3" src="src/assets/images/лист 14.png" alt="">
+                                <img class="leaf-4" src="src/assets/images/лист 3.png" alt="">
+                                <img class="leaf-5" src="src/assets/images/лист 9.png" alt="">
+                                <img class="leaf-6" src="src/assets/images/лист 2.png" alt="">
+                                <img class="leaf-7" src="src/assets/images/лист 7.png" alt="">
+                                <img class="leaf-8" src="src/assets/images/лист 8.png" alt="">
+                                <div class="banner-slide__info-1">
+                                    <img src="src/assets/icons/info-1.svg" alt="">
+                                    <p>мягкий детокс<br>
+                                        организма</p>
+                                </div>
+                                <div class="banner-slide__info-2">
+                                    <img src="src/assets/icons/info-2.svg" alt="">
+                                    <p>соки и смузи<br>
+                                        из натуральных<br>
+                                        продуктов</p>
+                                </div>
+                                <div class="banner-slide__order">
+                                    <span>заказать</span>
+                                    <img src="src/assets/icons/arrow-down.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="unique-conditions d-flex flex-column justify-content-center align-items-center">
+            <h4 class="title-1">Уникальные условия</h4>
+            <div class="d-flex unique-conditions__items">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="src/assets/icons/operator.svg" alt="">
+                    <p>Персональный<br> детокс-менеджер</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <img src="src/assets/icons/free-delivery.svg" alt="">
+                    <p>Бесплатная доставка<br> по Москве каждое утро*</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <img src="src/assets/icons/next-time.svg" alt="">
+                    <p>Доставляем на следующий<br> день после заказа</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="types-detox-drinks-bg">
+            <div class="container">
+                <div class="types-detox-drinks d-flex flex-column align-items-center">
+                    <h4 class="title-1">Виды детокс-напитков</h4>
+                    <div class="grid">
+                        <div class="types-detox-drinks__item">
+                            <img src="src/assets/images/product.png" alt="">
+                            <p class="title-1">смузи</p>
+                        </div>
+                        <div class="types-detox-drinks__item">
+                            <img src="src/assets/images/product.png" alt="">
+                            <p class="title-1">соки</p>
+                        </div>
+                        <div class="types-detox-drinks__item">
+                            <img src="src/assets/images/product.png" alt="">
+                            <p class="title-1">смузи-боулы</p>
+                        </div>
+                        <div class="types-detox-drinks__item">
+                            <img src="src/assets/images/product.png" alt="">
+                            <p class="title-1">детокс-программы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="general-rules d-flex flex-column">
+                <div class="title-1">общие правила</div>
+                <div class="general-rules__list d-flex flex-column">
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">1</span>
+                        <p class="general-rules__list-text"><span>Старайтесь пить много воды</span><br>
+                            И не только во время детокс программы, вода помогает очистить от токсинов организм и сделать
+                            кожу упругой
+                        </p>
+                    </div>
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">2</span>
+                        <p class="general-rules__list-text"><span>Занимайтесь спортом</span><br>
+                            Тем самым вы усилите эффект программы детокса
+                        </p>
+                    </div>
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">3</span>
+                        <p><span>Старайтесь мыслить позитивно</span></p>
+                    </div>
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">4</span>
+                        <p>В этот период желательно сходить в <span>баню</span></p>
+                    </div>
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">5</span>
+                        <p>Займитесь <span>йогой</span></p>
+                    </div>
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">6</span>
+                        <p>Концентрируйте внимание на том, как реагирует ваше тело</p>
+                    </div>
+                    <div class="general-rules__list-item d-flex">
+                        <span class="general-rules__list-number">7</span>
+                        <p>Высыпайтесь</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="why-from-us grid">
+                <div class="why-from-us__img"><img src="src/assets/images/slide.jpeg" alt="">
+                </div>
+                <div class="why-from-us__text">
+                    <div class="title-1">Почему стоит купить детокс программы на смузи у нас?</div>
+                    <p>
+                        <span>Осознанный подход.</span> Мы ценим ваше здоровье и предлагаем продукты,
+                        которые помогут вам достичь гармонии и баланса в жизни.
+                    </p>
+                    <p>
+                        <span>Высокое качество сервиса</span> Мы оперативно обрабатываем заказы и всегда готовы ответить
+                        на ваши вопросы, вы всегда можете на нас рассчитывать.
+                    </p>
+                    <p>
+                        <span>Быстрая доставка.</span> Мы гарантируем быструю доставку, чтобы вы могли наслаждаться
+                        свежими детокс-продуктами уже на следующий день после заказа.
+                    </p>
+                    <p>
+                        <span>Опыт.</span> Наш многолетний опыт в области детокс-напитков обеспечивает
+                        высший стандарт качества наших продуктов.
+                    </p>
+                    <p>
+                        <span>Забота о клиентах и любовь к своему делу.</span> Наше внимание к вашим потребностям и
+                        истинное
+                        увлечение детокс-напитками отражаются в каждом нашем продукте.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="reviews d-flex flex-column justify-content-center">
+                <h4 class="title-1">отзывы</h4>
+                <div class="reviews-slider">
+                    <span class="swiper-button-next reviews-next"></span>
+                    <span class="swiper-button-prev reviews-prev"></span>
+                    <div class="reviews-slider__wrapper" id="reviews-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide review-slide">
+                                <div class="review-slide__img"><img src="src/assets/images/review-img.png" alt=""></div>
+                                <div class="review-rating">
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="review-slide__name"><span>ТАтьяна</span>, Москва</p>
+                                <p class="review-slide__desc">“ Обожаю ваш смузи и чаи! Вкусно, полезно и всегда свежие
+                                    ингредиенты. Я стала постоянным
+                                    клиентом вашего сайта и рекомендую всем своим друзьям! ”</p>
+                            </div>
+                            <div class="swiper-slide review-slide">
+                                <div class="review-slide__img"><img src="src/assets/images/review-img.png" alt=""></div>
+                                <div class="review-rating">
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="review-slide__name"><span>ТАтьяна</span>, Москва</p>
+                                <p class="review-slide__desc">“ Обожаю ваш смузи и чаи! Вкусно, полезно и всегда свежие
+                                    ингредиенты. Я стала постоянным
+                                    клиентом вашего сайта и рекомендую всем своим друзьям! ”</p>
+                            </div>
+                            <div class="swiper-slide review-slide">
+                                <div class="review-slide__img"><img src="src/assets/images/review-img.png" alt=""></div>
+                                <div class="review-rating">
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="review-slide__name"><span>ТАтьяна</span>, Москва</p>
+                                <p class="review-slide__desc">“ Обожаю ваш смузи и чаи! Вкусно, полезно и всегда свежие
+                                    ингредиенты. Я стала постоянным
+                                    клиентом вашего сайта и рекомендую всем своим друзьям! ”</p>
+                            </div>
+                            <div class="swiper-slide review-slide">
+                                <div class="review-slide__img"><img src="src/assets/images/review-img.png" alt=""></div>
+                                <div class="review-rating">
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="review-slide__name"><span>ТАтьяна</span>, Москва</p>
+                                <p class="review-slide__desc">“ Обожаю ваш смузи и чаи! Вкусно, полезно и всегда свежие
+                                    ингредиенты. Я стала постоянным
+                                    клиентом вашего сайта и рекомендую всем своим друзьям! ”</p>
+                            </div>
+                            <div class="swiper-slide review-slide">
+                                <div class="review-slide__img"><img src="src/assets/images/review-img.png" alt=""></div>
+                                <div class="review-rating">
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="review-slide__name"><span>ТАтьяна</span>, Москва</p>
+                                <p class="review-slide__desc">“ Обожаю ваш смузи и чаи! Вкусно, полезно и всегда свежие
+                                    ингредиенты. Я стала постоянным
+                                    клиентом вашего сайта и рекомендую всем своим друзьям! ”</p>
+                            </div>
+                            <div class="swiper-slide review-slide">
+                                <div class="review-slide__img"><img src="src/assets/images/review-img.png" alt=""></div>
+                                <div class="review-rating">
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item rated">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                    <div class="review-rating__item">
+                                        <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L8.5716 4.83688H13.6574L9.5429 7.82624L11.1145 12.6631L7 9.67376L2.8855 12.6631L4.4571 7.82624L0.342604 4.83688H5.4284L7 0Z"
+                                                fill="#E6D5BE" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="review-slide__name"><span>ТАтьяна</span>, Москва</p>
+                                <p class="review-slide__desc">“ Обожаю ваш смузи и чаи! Вкусно, полезно и всегда свежие
+                                    ингредиенты. Я стала постоянным
+                                    клиентом вашего сайта и рекомендую всем своим друзьям! ”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand-info d-flex flex-column">
+                    <a href="index.html" class="footer-logo"><img src="src/assets/icons/logo.svg" alt=""></a>
+                    <p>
+                        Здоровый детокс организма - натуральные смузи
+                        и боулы с доставкой по Москве
+                        <br>
+                        <br>
+                        <span>ООО «Симплигрин»</span>
+                        <br>
+                        ИНН 7743280030
+                        <span>Юридический адрес:</span>
+                        <br>
+                        115088, город Москва, вн. тер. г. Муниципальный
+                        округ Южнопортовый, ул. 1-я Дубровская, д. 13А, стр. 1
+                    </p>
+                </div>
+                <div class="d-flex flex-column footer-links">
+                    <span class="footer-link-title">Для клиентов</span>
+
+                    <a href="#" class="footer-link footer-item">Возврат</a>
+                    <a href="#" class="footer-link footer-item">Доставка и оплата</a>
+                    <a href="#" class="footer-link footer-item">Вопрос – Ответ</a>
+                    <a href="#" class="footer-link footer-item">Политика конфиденциальности</a>
+                    <a href="#" class="footer-link footer-item">Отзывы</a>
+                    <a href="#" class="footer-link footer-item">Контакты</a>
+                </div>
+                <div class="d-flex flex-column footer-contacts">
+                    <span class="footer-link-title">Контакты</span>
+
+                    <a href="mailto:sale@simplygreen.club" class="d-flex align-items-center">
+                        <img src="src/assets/icons/email.svg" alt="">
+                        <p class="footer-link footer-item">sale@simplygreen.club</p>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/whatsapp.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                    <a href="https://web.telegram" target="_blank" class="d-flex align-items-center">
+                        <img src="src/assets/icons/telegram.svg" alt="">
+                        <p class="footer-link footer-item">+7(903)666-77-17</p>
+                    </a>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                    <div class="d-flex flex-column">
+                        <span class="footer-link-title">ГРАФИК РАБОТЫ:</span>
+
+                        <span class="footer-item">с 9:00 до 21:00</span>
+                        <span class="footer-item">без выходных</span>
+                    </div>
+                    <div class="pay-cards d-flex align-items-center">
+                        <img src="src/assets/icons/mastercard.png" alt="">
+                        <img src="src/assets/icons/visa.png" alt="">
+                        <img src="src/assets/icons/mir.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script/swiper.js"></script>
+    <script src="src/script/general.js"></script>
+</body>
+
+</html>
